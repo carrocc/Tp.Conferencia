@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TP Integrador Roccaforte</title>
+   
+   <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <!-- Css style -->
+    <link rel="stylesheet" href="Style.TPintegrador.css">
+  </head>
+<body>
+  
+  <!-- Nav -->
+   <nav class="navbar navbar-expand-xl" id="NavBack">
+      <div class="container-fluid">
+        <img src="./IMAGENES/codoacodo.png" alt="" style="width: 130px;">
+         <a class="navbar-brand" href="#ConfBsAs">Conf Bs As</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active  text-light" aria-current="page" href="#">La conferencia</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link  text-secondary" href="#oradores">Los oradores</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link  text-secondary" href="#Lugar">El lugar y la fecha</a> </li>
+                    <li class="nav-item">
+                    <a class="nav-link  text-secondary" href="#orador">Conviértete en orador</a></li>
+                    <li class="nav-item">
+                    <a class="nav-link text-success" href="https://www.ticketek.com.ar/">Comprar tickets</a></li>
+
+                </ul>
+        </div>
+    </nav>
+
+  <!-- Encabezado -->
+    <Header id="ConfBsAs" class="Encabezado">
+        <div class="MenuEncabezado">            
+         <h2>Conf Bs As</h2>
+           <p> Bs as llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el conocimiento y experiencia de los expertos que están creando el futuro de Internet. Van a conocer a miembros del evento, a los estudiantes de Codo a Codo y los oradores de primer nivel que tenemos para ti. Te esperamos! </p>
+
+         <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+           <button type="button" class="btn btn-outline-light me-md-2" href="#orador"> Quiero ser orador</button>  <button type="button" class="btn btn-success me-md-2" >Comprar tickets</button>
+        </div>
+        </div>
+    </Header>
+
+<!-- Oradores -->
+  <main id="oradores">
+        <h5 class="smalltext">CONOCE A LOS</h5>
+        <h2>ORADORES</h2> 
+
+       <!-- CARDS -->
+    <div class="card-group">
+      <div class="card ">
+        <img src="./IMAGENES/steve.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <button type="button" class="btn btn-warning btn-sm fw-bolder">JavaScript</button>  <button type="button" id="BotonVerde" class="btn btn-sm fw-bolder">React</button> 
+          <h5 class="card-title">Steve Jobs</h5>
+          <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea, et voluptatibus? Possimus fugit excepturi id? Minima distinctio maxime </p>
+        </p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="./IMAGENES/bill.jpg" class="card-img-top" alt="...">
+        <div class="card-body">      
+          <button type="button" class="btn btn-warning btn-sm fw-bolder">JavaScript</button>  <button type="button" id="BotonVerde" class="btn btn-sm fw-bolder">React</button>
+          <h5 class="card-title">Bill Gates</h5>
+          <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea, et voluptatibus? Possimus fugit excepturi id? Minima distinctio maxime</p>
+            </div>
+      </div>
+      <div class="card">
+        <img src="./IMAGENES/ada.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">      
+          <button type="button" class="btn btn-secondary btn-sm fw-bolder">Negocios</button>  <button type="button" class="btn btn-danger btn-sm fw-bolder">Startups</button>
+          <h5 class="card-title">Ada Lovelace</h5>
+          <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea, et voluptatibus? Possimus fugit excepturi id? Minima distinctio maxime</p>
+          </div>
+      </div>
+    </div>
+
+  </main>
+
+<!-- LUGAR -->
+<section id="Lugar" class="lugar-container">
+    <div class="caja-lugar">
+      <img src="./IMAGENES/honolulu.jpg" alt="" width="100%" height="100%">
+    </div>
+    <div class="caja-lugar-1">
+        <h4>Bs As - Octubre</h4>
+        <p> Buenos Aires es la provincia y localidad más grande del estado de Argentina, en los Estados Unidos. Honolulu es la mas sureña de entre las principales cuidades estadounidenses. Aunque el nombre de Honolulu se refiere al área urbana en la costa sureste de la isla de Oahu, la cuidad y el condado de Honolulu han formado una cuidad-condado consolidada que cubre toda la cuidad (aproximadamente 600 km2 de superficie). </p>
+        <button type="button" class="btn btn-outline-light">Conocé Más</button>
+    </div>
+</section>
+
+<!-- Form -->
+<section>
+    <h5 class="smalltext" id="orador">CONVIERTETE EN UN</h5>
+    <h2>ORADOR</h2>
+    <p class="centertext">Anotate como orador para dar una charla ignite. Cuéntanos de que quieres hablar!</p>
+
+    <form action="mailto:carrocc@gmail.com" method="get" class="form-inline">
+      <div class="row">
+        <div class="col">
+          <label for="Nombre"></label>
+          <input type="text" class="form-control" id="nombre" placeholder="Nombre" aria-label="First name">
+        </div>
+        <div class="col">
+          <label for="Apellido"></label>
+          <input type="text" class="form-control" id="Apellido" placeholder="Apellido" aria-label="Last name">
+        </div>
+      </div>
+      <div class="mb-3">
+        <label for="hablar" class="form-label"></label>
+        <textarea class="form-control" id="hablar" rows="4" placeholder="Sobre que quieres hablar?"></textarea>
+      </div>
+      <div class="chiquito">
+        Recuerda incluir un título para tu charla
+      </div>
+      <div class="d-grid gap-2">
+        <button type="submit" class="btn-col" >Enviar</button>
+      </div>  
+    </form>
+
+</section>
+
+
+<!-- Barra Footer -->
+<footer>
+    <div class="footerConteiner">
+      <a href="#"class="footbox">Preguntas frecuentes</a>
+      <a href="#"class="footbox">Contáctanos</a>
+      <a href="#"class="footbox">Prensa</a>
+      <a href="#"class="footbox">Conferencias</a>
+      <a href="#"class="footbox">Términos y condiciones</a>
+      <a href="#"class="footbox">Privacidad</a>
+      <a href="#"class="footbox">Estudiantes</a>
+  </div>
+
+</footer>
+
+<body>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+  </body>
+</html>

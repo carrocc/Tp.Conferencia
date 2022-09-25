@@ -1,0 +1,134 @@
+.navbar-brand {
+    color: white;
+    justify-content: initial;
+}
+
+#NavBack {
+    background-color: #4C4F4D;
+    padding-right: 60px;
+    padding-left: 60px;
+}
+
+.Encabezado {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./IMAGENES/ba1.jpg); 
+    background-size: cover ;
+    size: 900px;
+    color: white;
+   }
+
+.MenuEncabezado {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    font-weight: 400;
+    padding-top: 375px;
+    padding-left: 50%;
+    padding-bottom: 100px;
+    padding-right: 60px;
+}
+
+h2 {
+    text-align: center;
+    }
+
+.smalltext {
+    text-align: center;
+    font-weight: 100;
+    padding-top: 10px;
+    font-size: medium;
+}
+
+.card-group {
+    margin-left: 120px;
+    margin-right: 120px;
+    }
+
+.card {
+    padding: 10px;
+    }
+
+.card-text {
+    font-weight: 200;
+    padding-top: 5px;
+}
+
+#BotonVerde {
+    background-color:#17a2b9;
+    color: white;
+}
+
+.lugar-container {
+ padding: 15px 0;
+ display: flex;
+ flex-direction: row;
+ flex-wrap: nowrap;
+}
+
+.caja-lugar-1 {
+    border: 1px solid white;
+    background-color: rgb(43, 54, 54);
+    color: white;
+    padding: 25px 35px 25px 25px;
+    text-align: left top;
+    font-weight: 200;
+    font-size: medium;
+}
+
+.centertext {
+    text-align: center;
+}
+
+.form-inline {
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.chiquito{
+    color: grey;
+    font-size: 12px;
+    padding: 10px;
+}
+
+.btn-col {
+    background-color: rgb(150, 201, 62);
+    color:white;
+    border: 0 solid;
+}
+
+footer {
+    background-color: #3a3a67;
+    color: white;
+    size: 20px;
+    padding: 15px 60px;
+    margin-top: 15px;
+}
+.footerConteiner {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
+.footbox {
+    padding: 28px;
+ }
+
+ a:link {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+   }
+  
+  a:visited {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+   }
+  
+  a:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+   }
+  
+  a:active {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+   }
